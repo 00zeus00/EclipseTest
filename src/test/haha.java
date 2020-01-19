@@ -1,31 +1,9 @@
 package test;
 public class haha {
-	private String name;
-	private int age;
-	public haha()
+	public static void main(String[] args)
 	{
-		
-	}
-	public haha(int age,String name)
-	{
-		this.age=age;
-		this.name=name;
-	}
-	public  void  setAge(int age)
-	{
-		this.age=age;
-	}
-	public int getAge()
-	{
-		return this.age;
-	}
-	public  void  setName(String name)
-	{
-		this.name=name;
-	}
-	public String getName()
-	{
-		return this.name;
+		System.out.println("right");
+		System.out.println("c.d.getName()");
 	}
 }
 
